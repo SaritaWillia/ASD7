@@ -36,3 +36,4 @@ jobs:
         #Dear CCK students, 
         #You have to insert here your code so it 
         #will run in the last steps
+        python -m unittest calculator_test.py
