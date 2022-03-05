@@ -18,8 +18,8 @@ class Test(unittest.TestCase):
         self.assertEqual(result,32)
         
     def test_0_divide(self):
-        result = self.calculator.divide(4,2)
-        self.assertEqual(result,2)
+        result = self.calculator.divide(8,2)
+        self.assertEqual(result,4)
 if __name__ == '__main__':
     # begin the unittest.main()
     unittest.main()
